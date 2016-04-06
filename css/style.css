@@ -7,6 +7,8 @@ html {
 body {
 	text-align: center;
 	margin: 0 auto;
+	background-color: #d4ecf4;
+	font-family: 'Roboto Slab', serif;
 }
 /* Top Section */
 .masthead {
@@ -27,3 +29,4 @@ body {
 	margin-top: 0em;
 	font-size: 3em;
 }
+/* About Me */
