@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	text-align: center;
+	margin: 0 auto;
+}
+/* Top Section */
+.masthead {
+	background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=92b24309dd74c134f2123eb6fff6cb34);
+  	background-size: cover;
+  	padding: 3em 0;
+}
+.masthead h1, .masthead h3 {
+	font-family: 'Megrim', cursive;
+	color: #8d3921;
+}
+.masthead h1 {
+	margin-bottom: 0em;
+	font-size: 5em;
+}
+.masthead h3 {
+	margin-top: 0em;
+	font-size: 3em;
+}
