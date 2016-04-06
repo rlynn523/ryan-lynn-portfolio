@@ -16,7 +16,8 @@ body {
 }
 .masthead h1, .masthead h3 {
 	font-family: 'Megrim', cursive;
-	color: #8d3921;
+	color: #accbed;
+	text-shadow: 3px 3px #052f90;
 }
 .masthead h1 {
 	margin-bottom: 0em;
