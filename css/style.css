@@ -80,10 +80,35 @@ a:hover {
 	color: #accbed;
 }
 /* Footer */
-.footer {
+.social {
 	background-color: #2E2B3E;
 	color: #accbed;
 	font-size: 1em;
 	font-weight: 300;
-	padding: 3em 0;
+	padding: 2em 0;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+.content .icons li {
+	margin: 0 .5em;
+	display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 1px solid #accbed;
+    padding: 7.5px 6.5px;
+}
+.icons .fa-github {
+	color: #accbed;
+}
+.icons .fa-linkedin {
+	color: #accbed;
+}
+.icons .fa-codepen {
+	color: #accbed;
+}
+.icons i:hover{
+	color: #d4ecf4;
 }
