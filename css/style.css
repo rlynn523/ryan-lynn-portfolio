@@ -13,6 +13,10 @@ body {
 h3 {
 	font-family: 'Megrim', cursive;
 }
+.border {
+	border: 2px solid #accbed;
+	margin: 0 auto;
+}
 /* Top Section */
 .masthead {
 	background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=92b24309dd74c134f2123eb6fff6cb34);
@@ -33,14 +37,11 @@ h3 {
 	font-size: 3em;
 }
 /* About Me */
-.overview {
-	padding: 0 10em;
-}
 .about-me h3 {
 	font-size: 4em;
 	color: #052f90;
 	text-shadow: 3px 3px #accbed;
-    padding-bottom: 0px;
+	margin-bottom: 0.5em;
 }
 .about-me p {
 	display: inline-block;
@@ -49,18 +50,15 @@ h3 {
 	text-align: left;
 	color: #052f90;
 	font-weight: 300;
-	border-bottom: 2px solid #accbed;
+	padding-bottom: 2em;
 	padding-right: 10em;
 	padding-left: 10em;
-	padding-bottom: 2em;
-	margin-bottom: 0;
 }
 /* Projects */
 .projects {
 	font-size: 1em;
 	color: #052f90;
 	font-weight: 300;
-	border-bottom: 2px solid #accbed;
 	width: auto;
 	padding-bottom: 4em;
 }
@@ -72,6 +70,7 @@ h3 {
 	font-size: 4em;
 	color: #052f90;
 	text-shadow: 3px 3px #accbed;
+	margin-bottom: 0.5em;
 }
 a {
 	text-decoration: none;
