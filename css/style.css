@@ -33,25 +33,27 @@ h3 {
 	font-size: 3em;
 }
 /* About Me */
-.about-me {
-	padding: 1em 3em;
+.overview {
+	padding: 0 10em;
 }
 .about-me h3 {
 	font-size: 4em;
 	color: #052f90;
 	text-shadow: 3px 3px #accbed;
-	margin: 25px auto;
-	padding-bottom: 0.5em;
+    padding-bottom: 0px;
 }
 .about-me p {
+	display: inline-block;
+	width: 100%;
 	font-size: 1em;
 	text-align: left;
 	color: #052f90;
 	font-weight: 300;
 	border-bottom: 2px solid #accbed;
+	padding-right: 10em;
+	padding-left: 10em;
 	padding-bottom: 2em;
-	padding-right: 5em;
-	padding-left: 5em;
+	margin-bottom: 0;
 }
 /* Projects */
 .projects {
@@ -59,16 +61,17 @@ h3 {
 	color: #052f90;
 	font-weight: 300;
 	border-bottom: 2px solid #accbed;
+	width: auto;
+	padding-bottom: 4em;
 }
 .projects .links {
 	display: inline-block;
-	padding: 3em 5em;
+	padding: 1em 3em;
 }
 .content h3 {
 	font-size: 4em;
 	color: #052f90;
 	text-shadow: 3px 3px #accbed;
-	margin: 25px auto;
 }
 a {
 	text-decoration: none;
@@ -80,10 +83,8 @@ a:hover {
 /* Footer */
 .footer {
 	background-color: #2E2B3E;
-	margin: 0 auto;
-}
-.footer .connect {
-	font-family: 'Megrim', cursive;
 	color: #accbed;
-	font-size: 2em;
+	font-size: 1em;
+	font-weight: 300;
+	padding: 3em 0;
 }
