@@ -34,33 +34,56 @@ h3 {
 }
 /* About Me */
 .about-me {
-	padding: 0 3em;
+	padding: 1em 3em;
 }
 .about-me h3 {
-	font-size: 3em;
+	font-size: 4em;
 	color: #052f90;
 	text-shadow: 3px 3px #accbed;
-	margin-bottom: 25px;
+	margin: 25px auto;
+	padding-bottom: 0.5em;
 }
 .about-me p {
 	font-size: 1em;
+	text-align: left;
 	color: #052f90;
 	font-weight: 300;
 	border-bottom: 2px solid #accbed;
 	padding-bottom: 2em;
+	padding-right: 5em;
+	padding-left: 5em;
 }
 /* Projects */
-.projects .links {
-	display: inline-block;
-}
 .projects {
 	font-size: 1em;
 	color: #052f90;
 	font-weight: 300;
+	border-bottom: 2px solid #accbed;
 }
-.projects h3 {
-	font-size: 3em;
+.projects .links {
+	display: inline-block;
+	padding: 3em 5em;
+}
+.content h3 {
+	font-size: 4em;
 	color: #052f90;
 	text-shadow: 3px 3px #accbed;
-	margin-bottom: 25px;
+	margin: 25px auto;
+}
+a {
+	text-decoration: none;
+	font-weight: 400;
+}
+a:hover {
+	color: #accbed;
+}
+/* Footer */
+.footer {
+	background-color: #2E2B3E;
+	margin: 0 auto;
+}
+.footer .connect {
+	font-family: 'Megrim', cursive;
+	color: #accbed;
+	font-size: 2em;
 }
