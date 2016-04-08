@@ -9,10 +9,12 @@ body {
 	margin: 0 auto;
 	background-color: #d4ecf4;
 	font-family: 'Roboto Slab', serif;
+	position:relative;
 }
 h3 {
 	font-family: 'Megrim', cursive;
 }
+
 .border {
 	border: 2px solid #accbed;
 	margin: 0 auto;
