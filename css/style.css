@@ -14,7 +14,6 @@ body {
 h3 {
 	font-family: 'Megrim', cursive;
 }
-
 .border {
 	border: 2px solid #accbed;
 	margin: 0 auto;
@@ -67,6 +66,9 @@ h3 {
 .projects .links {
 	display: inline-block;
 	padding: 1em 3em;
+}
+.projects .links p {
+	color: #052f90;
 }
 .content h3 {
 	font-size: 4em;
