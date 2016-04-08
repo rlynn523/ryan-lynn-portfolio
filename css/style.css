@@ -9,8 +9,8 @@ body {
 	margin: 0 auto;
 	background-color: #d4ecf4;
 	font-family: 'Roboto Slab', serif;
-	position:relative;
 }
+
 h3 {
 	font-family: 'Megrim', cursive;
 }
@@ -112,5 +112,13 @@ ul {
 	color: #accbed;
 }
 .icons i:hover{
+	color: #d4ecf4;
+}
+.content a {
+	color: #accbed;
+	font-size: 1em;
+	font-weight: 300;
+}
+.content a:hover{
 	color: #d4ecf4;
 }
