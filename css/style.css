@@ -18,6 +18,26 @@ h3 {
 	border: 2px solid #accbed;
 	margin: 0 auto;
 }
+@media only screen and (max-width: 780px) {
+	.overview .about-me p {
+		padding: 1em 1.25em;
+		font-size: 1em;
+	}
+	.projects .links ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 10em;
+	}
+	.masthead h1 {
+		font-size: 2.5em;
+	}
+	.masthead h3 {
+		font-size: 1.5em;
+	}
+	.overview .about-me h3, .projects .content h3 {
+		font-size: 2em;
+	}
+}
 /* Top Section */
 .masthead {
 	background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=92b24309dd74c134f2123eb6fff6cb34);
@@ -47,20 +67,19 @@ h3 {
 .about-me p {
 	display: inline-block;
 	width: 100%;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-align: left;
 	color: #052f90;
 	font-weight: 300;
 	padding-bottom: 2em;
-	padding-right: 10em;
-	padding-left: 10em;
+	padding-right: 8em;
+	padding-left: 8em;
 }
 /* Projects */
 .projects {
-	font-size: 1em;
+	font-size: 1.1em;
 	color: #052f90;
 	font-weight: 300;
-	width: auto;
 	padding-bottom: 4em;
 }
 .projects .links {
@@ -104,6 +123,7 @@ ul {
     border: 1px solid #accbed;
     padding: 7.5px 6.5px;
 }
+
 .icons .fa-github {
 	color: #accbed;
 }
@@ -113,12 +133,14 @@ ul {
 .icons .fa-codepen {
 	color: #accbed;
 }
+.icons .fa-envelope {
+	color: #accbed;
+}
 .icons i:hover{
 	color: #d4ecf4;
 }
 .content a {
 	color: #accbed;
-	font-size: 1em;
 	font-weight: 300;
 }
 .content a:hover{
