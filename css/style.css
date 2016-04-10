@@ -18,7 +18,7 @@ h3 {
 	border: 2px solid #accbed;
 	margin: 0 auto;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 	 .masthead h1 {
     	padding: 0.25em 0.5em;
     	font-size: 2.5em;
@@ -82,21 +82,22 @@ h3 {
 	display: inline-block;
 	padding: 1em 3em;
 }
-.projects .links p {
-	color: #052f90;
-}
 .content h3 {
 	font-size: 4em;
 	color: #052f90;
 	text-shadow: 3px 3px #accbed;
 	margin-bottom: 0.5em;
 }
-a {
+.links a {
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 300;
+	color: #052f90;
 }
-a:hover {
+ .links a:hover {
 	color: #accbed;
+}
+.links a:visited {
+	color: #181b24;
 }
 /* Footer */
 .social {
@@ -117,7 +118,7 @@ ul {
     width: 40px;
     border-radius: 100%;
     border: 1px solid #accbed;
-    padding: 7.5px 6.5px;
+    padding: 7.5px 6.572px;
 }
 
 .icons .fa-github {
@@ -132,13 +133,17 @@ ul {
 .icons .fa-envelope {
 	color: #accbed;
 }
-.icons i:hover{
+.icons i:hover {
 	color: #d4ecf4;
 }
-.content a {
+.social .content a {
 	color: #accbed;
 	font-weight: 300;
+	text-decoration: none;
 }
-.content a:hover{
+.social .content a:hover { 
+	color: #d4ecf4;
+}
+.social .content a:visited {
 	color: #d4ecf4;
 }
