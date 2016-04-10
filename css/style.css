@@ -96,7 +96,8 @@ ul {
 	list-style-type: none;
 	padding: 0;
 }
-.content .icons li {
+.content .icons .github, 
+.linkedin, .codepen, .envelope {
 	margin: 0 .5em;
 	display: inline-block;
     height: 40px;
@@ -105,7 +106,6 @@ ul {
     border: 1px solid #accbed;
     padding: 9px 6.572px;
 }
-
 .icons .fa-github {
 	color: #accbed;
 }
@@ -118,20 +118,29 @@ ul {
 .icons .fa-envelope {
 	color: #accbed;
 }
-.icons i:hover {
-	color: #d4ecf4;
-}
 .social .content a {
 	color: #accbed;
 	font-weight: 300;
 	text-decoration: none;
 }
-.social .content a:hover { 
+.social .content a:hover {
 	color: #d4ecf4;
 }
-.social .content a:visited {
+/* Link Hovers */
+.github:hover, .linkedin:hover, 
+.codepen:hover, .envelope:hover {
+	background-color: #accbed;	
+	cursor: pointer;
+}
+.github:hover .fa-github, 
+.linkedin:hover .fa-linkedin,
+.codepen:hover .fa-codepen, 
+.envelope:hover .fa-envelope {
+	cursor: pointer;
 	color: #d4ecf4;
 }
+
+/* Media Query */
 @media only screen and (max-width: 800px) {
 	.masthead h1 {
     	padding: 0.25em 0.5em;
