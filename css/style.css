@@ -8,7 +8,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	background-color: #d4ecf4;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
@@ -118,7 +118,7 @@ ul {
     width: 40px;
     border-radius: 100%;
     border: 1px solid #accbed;
-    padding: 7.5px 6.572px;
+    padding: 8px 6.572px;
 }
 
 .icons .fa-github {
