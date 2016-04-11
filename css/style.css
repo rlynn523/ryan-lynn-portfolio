@@ -1,8 +1,8 @@
 html {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+ 	box-sizing: inherit;
 }
 body {
 	text-align: center;
@@ -137,16 +137,17 @@ ul {
 @media only screen and (max-width: 800px) {
 	.masthead h1 {
     	padding: 0.25em 0.5em;
-    	font-size: 2.5em;
+    	font-size: 3em;
 	}
 	.masthead h3 {
-		font-size: 1.5em;
+		font-size: 2.5em;
 	}
 	.overview .about-me p {
 		padding: 0 1.25em;
 		font-size: 1em;
 	}
-	.overview .about-me h3, .projects .content h3 {
+	.overview .about-me h3, 
+	.projects .content h3 {
 		font-size: 2.2em;
 	}
 }
