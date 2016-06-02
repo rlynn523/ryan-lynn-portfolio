@@ -4,64 +4,91 @@ html {
 *, *:before, *:after {
  	box-sizing: inherit;
 }
+/*div {
+    border: 1px solid #000000;
+}*/
 body {
 	text-align: center;
 	margin: 0 auto;
-	background-color: #d4ecf4;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	background-color: #FFFFFF;
 }
 
-h3 {
-	font-family: 'Megrim', cursive;
-}
 .border {
 	border: 2px solid #accbed;
 	margin: 0 auto;
 }
 /* Top Section */
-.masthead {
-	background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=92b24309dd74c134f2123eb6fff6cb34);
-  	background-size: cover;
-  	padding: 3em 0;
- }
-.masthead h1, .masthead h3 {
-	font-family: 'Megrim', cursive;
-	color: #accbed;
-	text-shadow: 3px 3px #052f90;
+.menu {
+	height: 3em;
+	width: 100%;
+	background-color: #FFFFFF;
+	position: fixed;
+	border-bottom: 2px solid black;
 }
-.masthead h1 {
-	margin-bottom: 0em;
+.menu .name {
+	float: left;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin: auto;
+	font-size: 1.5em;
+}
+.masthead {
+	background-image: url('https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e02f4468c31a2501a8cf1cb392f2bf4'); 	
+	background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 400px;
+ }
+.masthead p {
+	font-family: 'Amatic SC', cursive;
+	color: #FFFFFF;
+	font-weight: 300;
+	margin: 0 auto;
 	font-size: 5em;
 }
-.masthead h3 {
-	margin-top: 0em;
-	font-size: 3em;
-}
+
 /* About Me */
-.about-me h3 {
-	font-size: 4em;
-	color: #052f90;
-	text-shadow: 3px 3px #accbed;
-	margin-bottom: 0.5em;
+.overview, .projects {
+	height: 28em;
+}
+.about-me-title {
+	display: inline-block;
+	width: 33%;
+	float: left;
+	background-color: #BDBDBD;
+	color: #FFFFFF;
+}
+.about-me-title p {
+	text-align: center;
+	margin-bottom: 152px;
+	margin-top: 150px;
+	font-size: 6em;
+}
+.about-me {
+	display: inline-block;
+	width: 66%;
+	text-align: left;
 }
 .about-me p {
-	display: inline-block;
-	width: 100%;
-	font-size: 1.2em;
-	text-align: left;
-	color: #052f90;
-	font-weight: 300;
-	padding-bottom: 0em;
-	padding-right: 8em;
-	padding-left: 8em;
-	margin-bottom: 2.2em;
+	font-size: 1.25em;
+	padding: 100px 150px;
+	vertical-align: middle;
 }
+
 /* Projects */
-.projects {
-	font-size: 1.1em;
-	color: #052f90;
-	font-weight: 300;
-	padding-bottom: 4em;
+.project-title {
+	display: inline-block;
+	width: 33%;
+	float: right;
+	background-color: #BDBDBD;
+	color: #FFFFFF;
+}
+.project-title p {
+	text-align: center;
+	margin-bottom: 152px;
+	margin-top: 150px;
+	font-size: 6em;
 }
 .projects .links {
 	display: inline-block;
