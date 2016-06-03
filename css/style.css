@@ -28,10 +28,20 @@ body {
 }
 .menu .name {
 	float: left;
-	padding-left: 10px;
+	padding-left: 40px;
 	padding-top: 5px;
 	margin: auto;
 	font-size: 1.5em;
+}
+.menu-items {
+	float: right;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+.menu-items li {
+	display: inline-block;
+	font-size: 1.5em;
+	padding-right: 40px;
 }
 .masthead {
 	background-image: url('https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e02f4468c31a2501a8cf1cb392f2bf4'); 	
