@@ -33,6 +33,9 @@ body {
 	margin: auto;
 	font-size: 1.5em;
 }
+.name a:hover, .menu-items a:hover {
+	color: #9E9E9E;
+}
 .menu-items {
 	float: right;
 	padding-top: 5px;
@@ -42,6 +45,10 @@ body {
 	display: inline-block;
 	font-size: 1.5em;
 	padding-right: 40px;
+}
+a {
+	text-decoration: none;
+	color: black;
 }
 .masthead {
 	background-image: url('https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e02f4468c31a2501a8cf1cb392f2bf4'); 	
@@ -122,7 +129,13 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+/*.quiz:hover, .shopping-list:hover, .ratings:hover {
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+}*/
+.quiz-text {
+	display: none;
+}
 /* Footer */
 .social {
 	background-color: #2E2B3E;
