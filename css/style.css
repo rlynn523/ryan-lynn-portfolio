@@ -37,7 +37,7 @@ body {
 	background-image: url('https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e02f4468c31a2501a8cf1cb392f2bf4'); 	
 	background-repeat: no-repeat;
     background-size: 100%;
-    padding-top: 50px;
+    padding-top: 125px;
     padding-bottom: 400px;
  }
 .masthead p {
@@ -54,7 +54,7 @@ body {
 }
 .about-me-title {
 	display: inline-block;
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	background-color: #BDBDBD;
 	color: #FFFFFF;
@@ -64,10 +64,11 @@ body {
 	margin-bottom: 152px;
 	margin-top: 150px;
 	font-size: 6em;
+	padding-top: 3px;
 }
 .about-me {
 	display: inline-block;
-	width: 66%;
+	width: 66.66%;
 	text-align: left;
 }
 .about-me p {
@@ -79,7 +80,7 @@ body {
 /* Projects */
 .project-title {
 	display: inline-block;
-	width: 33%;
+	width: 33.33%;
 	float: right;
 	background-color: #BDBDBD;
 	color: #FFFFFF;
@@ -90,26 +91,19 @@ body {
 	margin-top: 150px;
 	font-size: 6em;
 }
-.projects .links {
+.ratings, .quiz {
 	display: inline-block;
-	padding: 1em 3em;
+	float: right;
+    width: 33.33%;
+ 	height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-.content h3 {
-	font-size: 4em;
-	color: #052f90;
-	text-shadow: 3px 3px #accbed;
-	margin-bottom: 0.5em;
+.ratings {
+	background-image: url('../images/ratings.jpg');
 }
-.links a {
-	text-decoration: none;
-	font-weight: 300;
-	color: #052f90;
-}
- .links a:hover {
-	color: #accbed;
-}
-.links a:visited {
-	color: #181b24;
+.quiz {
+	background-image: url('../images/quiz.jpg');
 }
 /* Footer */
 .social {
