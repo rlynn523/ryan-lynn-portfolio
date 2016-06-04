@@ -26,6 +26,18 @@ $(function(){
 });
 
 function scrollProject(){
-	$('html, body').animate({ scrollTop: $(".projects").position().top - $(".menu").height()}, 1500);
+	$('html, body').animate({ scrollTop: $(".projects").position().top - $(".menu").height()}, 2000);
 	// animate body with scrollTop
+}
+function scrollUp(){
+	$('html, body').animate({ scrollTop: $(".masthead").position().top}, 2000);
+}
+function scrollWho(){
+	$('html, body').animate({ scrollTop: $(".overview").position().top - $(".menu").height()}, 2000);
+}
+function scrollTech(){
+	$('html, body').animate({ scrollTop: $(".tech").position().top - $(".menu").height()}, 2000);
+}
+function scrollFooter(){
+	$('html, body').animate({ scrollTop: $(".social").position().top - $(".menu").height()}, 2000);
 }

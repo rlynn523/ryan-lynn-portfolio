@@ -31,7 +31,7 @@ body {
 }
 .menu .name {
 	float: left;
-	padding-left: 40px;
+	padding-left: 30px;
 	padding-top: 5px;
 	margin: auto;
 	font-size: 1.5em;
@@ -47,7 +47,7 @@ body {
 .menu-items li {
 	display: inline-block;
 	font-size: 1.5em;
-	padding-right: 40px;
+	padding-right: 30px;
 }
 a {
 	text-decoration: none;
@@ -71,37 +71,46 @@ a {
 }
 
 /* About Me */
-.overview, .projects {
+.overview, .projects, .tech {
 	height: 28em;
 }
-.about-me-title {
-	display: inline-block;
+.about-me-title, .tech-title {
 	width: 33.33%;
 	float: left;
 	background-color: #BDBDBD;
 	color: #FFFFFF;
 }
-.about-me-title p {
+.about-me-title p, .tech-title p {
 	text-align: center;
 	margin-bottom: 152px;
 	margin-top: 150px;
 	font-size: 6em;
 	padding-top: 3px;
 }
+.pic {
+	width: 33.33%;
+	float: left;
+	height: 28em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/rango.jpg')
+}
 .about-me {
 	display: inline-block;
-	width: 66.66%;
+	width: 33.33%;
 	text-align: left;
+	height: 28em;
 }
 .about-me p {
+	margin: 0;
 	font-size: 1.25em;
-	padding: 100px 150px;
-	vertical-align: middle;
+	padding-top: 105px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 /* Project Blocks */
 .project-title {
-	display: inline-block;
 	width: 33.33%;
 	float: right;
 	background-color: #BDBDBD;
@@ -158,54 +167,72 @@ a {
 	margin-top: 290px;
 	margin-left: 30px;
 }
+/* Tech Logos */
+.html, .css {
+	width: 22.22%;
+	float: left;
+	height: 65%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.html {
+	margin-top: 85px;
+    background-image: url('../images/html.jpg');
+}
 
 /* Footer */
 .social {
-	background-color: #2E2B3E;
-	color: #accbed;
-	font-size: 1em;
-	font-weight: 300;
+	background-color: #000000;
+	color: #FFFFFF;;
 	padding: 2em 0;
+	font-family: 'Amatic SC', cursive;
+
 }
-ul {
+.content-title {
+	font-size: 3em;
+	margin-top: 0px;
+    margin-bottom: 32px;
+}
+.icons {
 	list-style-type: none;
 	padding: 0;
+	font-size: 30px;
 }
 .content .icons .github, 
-.linkedin, .codepen, .envelope {
+.linkedin, .envelope {
 	margin: 0 .5em;
 	display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 100%;
-    border: 1px solid #accbed;
-    padding: 9px 6.572px;
+    border: 1px solid #FFFFFF;
+    padding: 8.5px 5px;
 }
 .icons .fa-github, .icons .fa-linkedin,
-.icons .fa-codepen, .icons .fa-envelope {
-	color: #accbed;
+.icons .fa-envelope {
+	color: #FFFFFF;
+	font-size: 1em;
 }
 
 .social .content a {
-	color: #accbed;
+	color: #FFFFFF;
 	font-weight: 300;
 	text-decoration: none;
 }
 .social .content a:hover {
-	color: #d4ecf4;
+	color: #BDBDBD;
+	right: 0;
 }
 /* Link Hovers */
 .github:hover, .linkedin:hover, 
-.codepen:hover, .envelope:hover {
-	background-color: #accbed;	
+.envelope:hover {
+	background-color: #BDBDBD;	
 	cursor: pointer;
 }
 .github:hover .fa-github, 
 .linkedin:hover .fa-linkedin,
-.codepen:hover .fa-codepen, 
 .envelope:hover .fa-envelope {
 	cursor: pointer;
-	color: #d4ecf4;
 }
 
 /* Media Query */
