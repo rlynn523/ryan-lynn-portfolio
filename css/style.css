@@ -4,19 +4,11 @@ html {
 *, *:before, *:after {
  	box-sizing: inherit;
 }
-/*div {
-    border: 1px solid #000000;
-}*/
 body {
 	text-align: center;
 	margin: 0 auto;
 	font-family: 'Oswald', sans-serif;
 	background-color: #FFFFFF;
-}
-
-.border {
-	border: 2px solid #accbed;
-	margin: 0 auto;
 }
 
 /* Menu Section */
@@ -57,7 +49,6 @@ a {
 /*Masthead Section*/
 .masthead {
 	background-image: url('https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e02f4468c31a2501a8cf1cb392f2bf4'); 	
-	background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 125px;
     padding-bottom: 400px;
@@ -65,13 +56,12 @@ a {
 .masthead p {
 	font-family: 'Amatic SC', cursive;
 	color: #FFFFFF;
-	font-weight: 300;
 	margin: 0 auto;
 	font-size: 5em;
 }
 
-/* About Me */
-.overview, .projects, .tech {
+/* About Me Section */
+.overview, .projects, .tech, .pic, .about-me, .project-title, .tech-images {
 	height: 28em;
 }
 .about-me-title, .tech-title {
@@ -81,7 +71,6 @@ a {
 	color: #FFFFFF;
 }
 .about-me-title p, .tech-title p {
-	text-align: center;
 	margin-bottom: 152px;
 	margin-top: 150px;
 	font-size: 6em;
@@ -90,16 +79,13 @@ a {
 .pic {
 	width: 33.33%;
 	float: left;
-	height: 28em;
     background-size: 100%;
-    background-repeat: no-repeat;
     background-image: url('../images/rango.jpg')
 }
 .about-me {
 	display: inline-block;
 	width: 33.33%;
 	text-align: left;
-	height: 28em;
 }
 .about-me p {
 	margin: 0;
@@ -110,6 +96,11 @@ a {
 }
 
 /* Project Blocks */
+.ratings, .quiz, .shopping-list, .new {
+	width: 33.33%;
+    background-size: 100%;
+}
+
 .project-title {
 	width: 33.33%;
 	float: right;
@@ -122,12 +113,11 @@ a {
 	margin-top: 150px;
 	font-size: 6em;
 }
+.ratings, .quiz, .shopping-list, .new {
+	height: 50%;
+}
 .ratings, .quiz {
 	float: right;
-    width: 33.33%;
-    height: 50%;
-    background-size: 100%;
-    background-repeat: no-repeat;
     position: relative;
 }
 .ratings {
@@ -140,10 +130,11 @@ a {
 	background-image: url('../images/shopping-list.jpg');
 	position: relative;
 	float: left;
- 	width: 33.33%;
- 	height: 50%;
-    background-size: 100%;
-    background-repeat: no-repeat;
+}
+.new {
+	font-size: 4em;
+	float: left;
+	border-bottom: 2px solid #BDBDBD;
 }
 
 /*Project Hidden Divs*/
@@ -168,18 +159,14 @@ a {
 	margin-left: 30px;
 }
 /* Tech Logos */
-.html, .css {
-	width: 22.22%;
-	float: left;
-	height: 65%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.html {
+.tech-images{
 	margin-top: 85px;
-    background-image: url('../images/html.jpg');
+	width: 66%;
+	float: left;
 }
-
+.html, .css {
+	margin-right: 50px;
+}
 /* Footer */
 .social {
 	background-color: #000000;
