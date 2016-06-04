@@ -24,3 +24,8 @@ $(function(){
 		$(".list-text").hide();
 	})
 });
+
+function scrollProject(){
+	$('html, body').animate({ scrollTop: $(".projects").position().top - $(".menu").height()}, 1500);
+	// animate body with scrollTop
+}
