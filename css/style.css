@@ -103,6 +103,7 @@ a {
 	width: 33.33%;
     background-size: 100%;
     height: 50%;
+    background-repeat: no-repeat;
 }
 
 .project-title {
@@ -222,20 +223,27 @@ a {
 .envelope:hover .fa-envelope {
 	cursor: pointer;
 }
+.mq-tv, .mq-quiz, .mq-list {
+	display: none;
+}
 /* Media Query */
-/*@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1040px) {
 	.masthead {
 		background-position-y: -15px;
-		padding-bottom: 150px;
+		padding-bottom: 90px;
 	}
 	.masthead p {
 		font-size: 4em;
+		margin-bottom: 100px;
 	}
 	.about-me-title, .tech-title {
     	height: 28em;
 	}
 	.about-me-title p, .tech-title p {
     	margin-top: 75px;
+	}
+	.about-me p {
+		padding-top: 75px;
 	}
 	.js {
 		width: 215px;
@@ -249,5 +257,21 @@ a {
 	.new {
 		padding: 20px;
 		font-size: 3em;
+		border-bottom: none;
 	}
-}*/
+	.mq-tv, .mq-quiz {
+		display: block;
+		margin-top: 180px;
+		margin-bottom: 0;
+		font-size: 24px;
+	}
+	.mq-list {
+		display: block;
+		margin-bottom: 0;
+		font-size: 24px;
+		margin-top: 185px;
+	}
+	.projects {
+		border-bottom: 2px solid #BDBDBD;
+	}
+}
