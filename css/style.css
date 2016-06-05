@@ -15,7 +15,7 @@ body {
 .menu {
 	height: 3em;
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: #BDBDBD;
 	position: fixed;
 	border-bottom: 2px solid black;
 	z-index: 100;
@@ -29,7 +29,7 @@ body {
 	font-size: 1.5em;
 }
 .name a:hover, .menu-items a:hover {
-	color: #9E9E9E;
+	color: #FFFFFF;
 }
 .menu-items {
 	float: right;
@@ -52,6 +52,7 @@ a {
     background-size: 100%;
     padding-top: 125px;
     padding-bottom: 400px;
+    background-repeat: no-repeat;
  }
 .masthead p {
 	font-family: 'Amatic SC', cursive;
@@ -80,7 +81,9 @@ a {
 	width: 33.33%;
 	float: left;
     background-size: 100%;
-    background-image: url('../images/rango.jpg')
+    background-image: url('../images/rango.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
 }
 .about-me {
 	display: inline-block;
@@ -99,6 +102,7 @@ a {
 .ratings, .quiz, .shopping-list, .new {
 	width: 33.33%;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .project-title {
@@ -112,9 +116,6 @@ a {
 	margin-bottom: 152px;
 	margin-top: 150px;
 	font-size: 6em;
-}
-.ratings, .quiz, .shopping-list, .new {
-	height: 50%;
 }
 .ratings, .quiz {
 	float: right;
@@ -221,7 +222,32 @@ a {
 .envelope:hover .fa-envelope {
 	cursor: pointer;
 }
-
 /* Media Query */
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 1180px) {
+	.masthead {
+		background-position-y: -15px;
+		padding-bottom: 150px;
+	}
+	.masthead p {
+		font-size: 4em;
+	}
+	.about-me-title, .tech-title {
+    	height: 28em;
+	}
+	.about-me-title p, .tech-title p {
+    	margin-top: 75px;
+	}
+	.js {
+		width: 215px;
+	}
+	.html, .css {
+		width: 150px;
+	}
+	.ratings, .quiz, .shopping-list, .new {
+		height: 50%;
+	}
+	.new {
+		padding: 20px;
+		font-size: 3em;
+	}
 }
