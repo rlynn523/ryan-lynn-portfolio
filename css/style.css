@@ -102,7 +102,7 @@ a {
 .ratings, .quiz, .shopping-list, .new {
 	width: 33.33%;
     background-size: 100%;
-    background-repeat: no-repeat;
+    height: 50%;
 }
 
 .project-title {
