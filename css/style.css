@@ -223,7 +223,7 @@ a {
 	cursor: pointer;
 }
 /* Media Query */
-@media only screen and (max-width: 1180px) {
+/*@media only screen and (max-width: 1180px) {
 	.masthead {
 		background-position-y: -15px;
 		padding-bottom: 150px;
@@ -250,4 +250,4 @@ a {
 		padding: 20px;
 		font-size: 3em;
 	}
-}
+}*/
