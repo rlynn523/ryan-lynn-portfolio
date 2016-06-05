@@ -121,6 +121,7 @@ a {
 	margin-bottom: 152px;
 	margin-top: 150px;
 	font-size: 6em;
+	padding-top: 3px;
 }
 .ratings, .quiz {
 	float: right;
@@ -288,6 +289,9 @@ a {
 		font-size: 15px;
 		padding-top: 90px;
 	}
+	.menu-items, .menu .name  {
+		padding-top: 9px;
+	}
 	.menu .name, .menu-items li {
 		font-size: 20px;
 	}
@@ -324,15 +328,45 @@ a {
 	}
 }
 @media only screen and (max-width: 425px) {
+	.masthead {
+		padding-bottom: 0;
+	}
+	.masthead p {
+		font-size: 2.5em;
+		padding-bottom: 15px;
+		margin-bottom: 0;
+	}
 	.menu-items {
 		float: none;
 		padding-top: 10px;
 		padding-left: 0;
+	}
+	.menu .name {
+		display: none;
 	}
 	.menu-items li {
 		font-size: 12px;
 	}
 	.menu-items .connect {
 		padding-right: 0;
+	}
+	.about-me-title p, .project-title p, .tech-title p {
+		font-size: 4em;
+		padding-top: 22px;
+	}
+	.about-me {
+		width: 100%;
+	}
+	.pic {
+		display: none;
+	}
+	.content-title {
+		font-size: 2.5em;
+	}
+	.html, .css {
+		width: 75px
+	}
+	.js {
+		width: 90px;
 	}
 }
