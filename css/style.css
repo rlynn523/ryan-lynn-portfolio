@@ -140,6 +140,9 @@ a {
 	float: left;
 	border-bottom: 2px solid #BDBDBD;
 }
+.mq-tv, .mq-quiz, .mq-list {
+	display: none;
+}
 
 /*Project Hidden Divs*/
 .quiz-text, .ratings-text, .list-text {
@@ -177,7 +180,7 @@ a {
 	color: #FFFFFF;;
 	padding: 2em 0;
 	font-family: 'Amatic SC', cursive;
-
+	position: absolute;
 }
 .content-title {
 	font-size: 3em;
@@ -225,9 +228,7 @@ a {
 .envelope:hover .fa-envelope {
 	cursor: pointer;
 }
-.mq-tv, .mq-quiz, .mq-list {
-	display: none;
-}
+
 /* Media Query */
 @media only screen and (max-width: 1040px) {
 	.masthead {
@@ -275,5 +276,61 @@ a {
 	}
 	.projects {
 		border-bottom: 2px solid #BDBDBD;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.masthead {
+		padding-bottom: 80px;
+	}
+	.about-me-title, .project-title, .tech-title {
+		width: 100%;
+		height: 10em;
+	}
+	.overview, .projects, .tech, .pic, .about-me {
+		height: 20em;
+	}
+	.about-me-title p, .project-title p, .tech-title p {
+		margin: 0;
+	}
+	.about-me p {
+		font-size: 15px;
+		padding: 0;
+		margin-top: 60px;
+	}
+	.menu .name, .menu-items li {
+		font-size: 20px;
+	}
+	.menu-items li {
+		padding-top: 0;
+	}
+	.mq-tv, .mq-quiz, .mq-list{
+		margin-top: 132px;
+		font-size: 18px;
+	}
+	.mq-list {
+		margin-top: 134px;
+	}
+	.html, .css {
+		width: 100px
+	}
+	.js {
+		width: 130px;
+	}
+	.new {
+		display: none;
+	}
+	.tech-images {
+		width: 100%;
+		float: none;
+	}
+	.social {
+		margin-top: 200px;
+		width: 100%;
+	}
+	img {
+		margin-top: 40px;
+	}
+	.social, .content, .content-title p {
+		font-size: 15px;
 	}
 }
