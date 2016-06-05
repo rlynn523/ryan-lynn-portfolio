@@ -332,8 +332,8 @@ a {
 		padding-bottom: 0;
 	}
 	.masthead p {
-		font-size: 2.5em;
-		padding-bottom: 15px;
+		font-size: 3em;
+		padding-bottom: 10px;
 		margin-bottom: 0;
 	}
 	.menu-items {
@@ -345,23 +345,29 @@ a {
 		display: none;
 	}
 	.menu-items li {
-		font-size: 12px;
+		font-size: 15px;
 	}
 	.menu-items .connect {
 		padding-right: 0;
 	}
 	.about-me-title p, .project-title p, .tech-title p {
-		font-size: 4em;
-		padding-top: 22px;
+		font-size: 3em;
+		padding-top: 35px;
 	}
 	.about-me {
 		width: 100%;
+	}
+	.about-me p {
+		padding-top: 78px;
 	}
 	.pic {
 		display: none;
 	}
 	.content-title {
 		font-size: 2.5em;
+	}
+	img {
+		margin-top: 90px;
 	}
 	.html, .css {
 		width: 75px
