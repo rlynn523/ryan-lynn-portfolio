@@ -64,7 +64,7 @@ a {
 }
 
 /* About Me Section */
-.overview, .projects, .tech, .pic, .about-me, .project-title, .tech-images {
+.overview, .projects, .tech {
 	height: 28em;
 }
 .about-me-title, .tech-title {
@@ -81,6 +81,7 @@ a {
 }
 .pic {
 	width: 33.33%;
+	height: 100%;
 	float: left;
     background-size: 100%;
     background-image: url('../images/rango.jpg');
@@ -91,6 +92,7 @@ a {
 	display: inline-block;
 	width: 33.33%;
 	text-align: left;
+	height: 100%;
 }
 .about-me p {
 	margin: 0;
@@ -181,6 +183,7 @@ a {
 	padding: 2em 0;
 	font-family: 'Amatic SC', cursive;
 	position: absolute;
+	width: 100%;
 }
 .content-title {
 	font-size: 3em;
@@ -262,18 +265,6 @@ a {
 		font-size: 3em;
 		border-bottom: none;
 	}
-	.mq-tv, .mq-quiz {
-		display: block;
-		margin-top: 180px;
-		margin-bottom: 0;
-		font-size: 24px;
-	}
-	.mq-list {
-		display: block;
-		margin-bottom: 0;
-		font-size: 24px;
-		margin-top: 185px;
-	}
 	.projects {
 		border-bottom: 2px solid #BDBDBD;
 	}
@@ -285,17 +276,17 @@ a {
 	.about-me-title, .project-title, .tech-title {
 		width: 100%;
 		height: 10em;
-	}
-	.overview, .projects, .tech, .pic, .about-me {
-		height: 20em;
+		float: none;
 	}
 	.about-me-title p, .project-title p, .tech-title p {
 		margin: 0;
 	}
+	.about-me {
+		width: 66.66%;
+	}
 	.about-me p {
 		font-size: 15px;
-		padding: 0;
-		margin-top: 60px;
+		padding-top: 90px;
 	}
 	.menu .name, .menu-items li {
 		font-size: 20px;
@@ -303,12 +294,12 @@ a {
 	.menu-items li {
 		padding-top: 0;
 	}
-	.mq-tv, .mq-quiz, .mq-list{
-		margin-top: 132px;
-		font-size: 18px;
+	.shopping-list, .quiz, .ratings {
+		width: 100%;
+		height: 6em;
 	}
-	.mq-list {
-		margin-top: 134px;
+	.pic, .about-me {
+		height: 288px;
 	}
 	.html, .css {
 		width: 100px
@@ -322,15 +313,26 @@ a {
 	.tech-images {
 		width: 100%;
 		float: none;
-	}
-	.social {
-		margin-top: 200px;
-		width: 100%;
+		height: 18em;
+		margin-top: 0;
 	}
 	img {
-		margin-top: 40px;
+		margin-top: 75px;
 	}
 	.social, .content, .content-title p {
 		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.menu-items {
+		float: none;
+		padding-top: 10px;
+		padding-left: 0;
+	}
+	.menu-items li {
+		font-size: 12px;
+	}
+	.menu-items .connect {
+		padding-right: 0;
 	}
 }
