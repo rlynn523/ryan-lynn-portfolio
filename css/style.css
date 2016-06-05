@@ -20,10 +20,11 @@ body {
 	border-bottom: 2px solid black;
 	z-index: 100;
 	top: 0;
+	display: none;
 }
 .menu .name {
 	float: left;
-	padding-left: 30px;
+	padding-left: 20px;
 	padding-top: 5px;
 	margin: auto;
 	font-size: 1.5em;
@@ -39,7 +40,7 @@ body {
 .menu-items li {
 	display: inline-block;
 	font-size: 1.5em;
-	padding-right: 30px;
+	padding-right: 20px;
 }
 a {
 	text-decoration: none;
@@ -54,11 +55,12 @@ a {
     padding-bottom: 400px;
     background-repeat: no-repeat;
  }
-.masthead p {
+.masthead-title {
 	font-family: 'Amatic SC', cursive;
 	color: #FFFFFF;
 	margin: 0 auto;
 	font-size: 5em;
+	display: none;
 }
 
 /* About Me Section */

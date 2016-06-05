@@ -1,27 +1,29 @@
 $(function(){
+	$(".masthead-title").fadeIn(4000);
+	$(".menu").fadeIn(6000);
 	$(".quiz").mouseover(function(){
 		$(this).css({'filter':'blur(4px)', '-webkit-filter': 'blur(4px)'});
-		$(".quiz-text").show();
+		$(".quiz-text").fadeIn(800);
 	})
 	.mouseleave(function(){
 		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
-		$(".quiz-text").hide();
+		$(".quiz-text").fadeOut(400);
 	})
 	$(".ratings").mouseover(function(){
 		$(this).css({'filter':'blur(4px)', '-webkit-filter': 'blur(4px)'});
-		$(".ratings-text").show();
+		$(".ratings-text").fadeIn(800);
 	})
 	.mouseleave(function(){
 		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
-		$(".ratings-text").hide();
+		$(".ratings-text").fadeOut(400);
 	})
 	$(".shopping-list").mouseover(function(){
 		$(this).css({'filter':'blur(4px)', '-webkit-filter': 'blur(4px)'});
-		$(".list-text").show();
+		$(".list-text").fadeIn(800);
 	})
 	.mouseleave(function(){
 		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
-		$(".list-text").hide();
+		$(".list-text").fadeOut(400);
 	})
 });
 
