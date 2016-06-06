@@ -150,7 +150,7 @@ a {
 /*Project Hidden Divs*/
 .quiz-text, .ratings-text, .list-text {
 	font-size: 3em;
-	/*display: none;*/
+	display: none;
 	color: #FFFFFF;
 	position: absolute;
 	padding: 10px;
@@ -243,6 +243,10 @@ a {
 		font-size: 4em;
 		margin-bottom: 100px;
 	}
+	.overview, .projects, .tech {
+		min-height: 28em;
+		height: 0;
+	}
 	.about-me-title, .tech-title {
     	max-height: 28em;
 	}
@@ -279,6 +283,9 @@ a {
 		width: 100%;
 		min-height: 10em;
 		float: none;
+	}
+	.overview, .projects, .tech {
+		height: auto;
 	}
 	.about-me-title p, .project-title p, .tech-title p {
 		margin: 0;
