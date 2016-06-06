@@ -143,14 +143,14 @@ a {
 	float: left;
 	border-bottom: 2px solid #BDBDBD;
 }
-.mq-tv, .mq-quiz, .mq-list {
+.button {
 	display: none;
 }
 
 /*Project Hidden Divs*/
 .quiz-text, .ratings-text, .list-text {
 	font-size: 3em;
-	display: none;
+	/*display: none;*/
 	color: #FFFFFF;
 	position: absolute;
 	padding: 10px;
@@ -161,8 +161,8 @@ a {
 	margin-top: 66.5px;
 }
 .ratings-text {
-	margin-left: 482px;
-	margin-top: 66.5px;
+	margin-left: 35%;
+    margin-top: 6%;
 }
 .list-text {
 	margin-top: 290px;
@@ -244,7 +244,7 @@ a {
 		margin-bottom: 100px;
 	}
 	.about-me-title, .tech-title {
-    	height: 28em;
+    	max-height: 28em;
 	}
 	.about-me-title p, .tech-title p {
     	margin-top: 75px;
@@ -259,7 +259,8 @@ a {
 		width: 150px;
 	}
 	.ratings, .quiz, .shopping-list, .new {
-		height: 50%;
+		background-size: cover;
+		background-position: center;
 	}
 	.new {
 		padding: 20px;
@@ -276,7 +277,7 @@ a {
 	}
 	.about-me-title, .project-title, .tech-title {
 		width: 100%;
-		height: 10em;
+		min-height: 10em;
 		float: none;
 	}
 	.about-me-title p, .project-title p, .tech-title p {
@@ -300,7 +301,7 @@ a {
 	}
 	.shopping-list, .quiz, .ratings {
 		width: 100%;
-		height: 6em;
+		min-height: 10em;
 	}
 	.pic, .about-me {
 		height: 288px;
@@ -317,7 +318,7 @@ a {
 	.tech-images {
 		width: 100%;
 		float: none;
-		height: 18em;
+		min-height: 18em;
 		margin-top: 0;
 	}
 	img {
@@ -353,6 +354,13 @@ a {
 	.about-me-title p, .project-title p, .tech-title p {
 		font-size: 3em;
 		padding-top: 35px;
+	}
+	.ratings-text, .quiz-text, .list-text {
+		display: none !important;
+	}
+	.button {
+		display: block;
+		float: right;
 	}
 	.about-me {
 		width: 100%;
