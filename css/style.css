@@ -47,7 +47,7 @@ a {
 	color: black;
 }
 
-/*Masthead Section*/
+/* Masthead Section */
 .masthead {
 	background-image: url('https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e02f4468c31a2501a8cf1cb392f2bf4'); 	
     background-size: 100%;
@@ -147,7 +147,7 @@ a {
 	display: none;
 }
 
-/*Project Hidden Divs*/
+/* Project Hidden Divs */
 .quiz-text, .ratings-text, .list-text {
 	font-size: 3em;
 	display: none;
@@ -279,24 +279,6 @@ a {
 	.masthead {
 		padding-bottom: 80px;
 	}
-	.about-me-title, .project-title, .tech-title {
-		width: 100%;
-		min-height: 10em;
-		float: none;
-	}
-	.overview, .projects, .tech {
-		height: auto;
-	}
-	.about-me-title p, .project-title p, .tech-title p {
-		margin: 0;
-	}
-	.about-me {
-		width: 66.66%;
-	}
-	.about-me p {
-		font-size: 15px;
-		padding-top: 90px;
-	}
 	.menu-items, .menu .name  {
 		padding-top: 9px;
 	}
@@ -306,12 +288,34 @@ a {
 	.menu-items li {
 		padding-top: 0;
 	}
-	.shopping-list, .quiz, .ratings {
+	.overview, .projects, .tech {
+		height: auto;
+	}
+	.projects {
+		min-height: 40em;
+	}
+	.about-me-title, .project-title, .tech-title {
 		width: 100%;
 		min-height: 10em;
+		float: none;
+	}
+	.about-me-title p, .project-title p, .tech-title p {
+		margin: 0;
 	}
 	.pic, .about-me {
 		height: 288px;
+	}
+	.about-me {
+		width: 66.66%;
+	}
+	.about-me p {
+		font-size: 15px;
+		padding-top: 90px;
+	}
+	.shopping-list, .quiz, .ratings {
+		background-position-y: -5px;
+		width: 100%;
+		min-height: 10em;
 	}
 	.html, .css {
 		width: 100px
@@ -362,13 +366,6 @@ a {
 		font-size: 3em;
 		padding-top: 35px;
 	}
-	.ratings-text, .quiz-text, .list-text {
-		display: none !important;
-	}
-	.button {
-		display: block;
-		float: right;
-	}
 	.about-me {
 		width: 100%;
 	}
@@ -378,8 +375,12 @@ a {
 	.pic {
 		display: none;
 	}
-	.content-title {
-		font-size: 2.5em;
+	.ratings-text, .quiz-text, .list-text {
+		display: none !important;
+	}
+	.button {
+		display: block;
+		float: right;
 	}
 	img {
 		margin-top: 90px;
@@ -389,5 +390,8 @@ a {
 	}
 	.js {
 		width: 90px;
+	}
+	.content-title {
+		font-size: 2.5em;
 	}
 }
