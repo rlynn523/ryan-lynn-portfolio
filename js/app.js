@@ -25,6 +25,14 @@ $(function(){
 		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
 		$(".list-text").fadeOut(400);
 	});
+	$(".shelter-dogs").mouseover(function(){
+		$(this).css({'filter':'blur(4px)', '-webkit-filter': 'blur(4px)'});
+		$(".list-text").fadeIn(800);
+	})
+	.mouseleave(function(){
+		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
+		$(".list-text").fadeOut(400);
+	});
 });
 
 function scrollProject(){
