@@ -8,7 +8,7 @@ $(function(){
 	.mouseleave(function(){
 		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
 		$(".quiz-text").fadeOut(400);
-	})
+	});
 	$(".ratings").mouseover(function(){
 		$(this).css({'filter':'blur(4px)', '-webkit-filter': 'blur(4px)'});
 		$(".ratings-text").fadeIn(800);
@@ -16,7 +16,7 @@ $(function(){
 	.mouseleave(function(){
 		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
 		$(".ratings-text").fadeOut(400);
-	})
+	});
 	$(".shopping-list").mouseover(function(){
 		$(this).css({'filter':'blur(4px)', '-webkit-filter': 'blur(4px)'});
 		$(".list-text").fadeIn(800);
@@ -24,7 +24,7 @@ $(function(){
 	.mouseleave(function(){
 		$(this).css({'filter':'blur(0px)', '-webkit-filter': 'blur(0px)'});
 		$(".list-text").fadeOut(400);
-	})
+	});
 });
 
 function scrollProject(){
