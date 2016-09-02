@@ -263,14 +263,9 @@ a {
 	.html, .css {
 		width: 150px;
 	}
-	.ratings, .quiz, .shopping-list, .new {
+	.ratings, .quiz, .shopping-list, .shelter-dogs {
 		background-size: cover;
 		background-position: center;
-	}
-	.new {
-		padding: 20px;
-		font-size: 3em;
-		border-bottom: none;
 	}
 	.projects {
 		border-bottom: 2px solid #BDBDBD;
@@ -313,7 +308,7 @@ a {
 		font-size: 15px;
 		padding-top: 90px;
 	}
-	.shopping-list, .quiz, .ratings {
+	.shopping-list, .quiz, .ratings, .shelter-dogs {
 		background-position-y: -5px;
 		width: 100%;
 		min-height: 10em;
@@ -323,9 +318,6 @@ a {
 	}
 	.js {
 		width: 130px;
-	}
-	.new {
-		display: none;
 	}
 	.tech-images {
 		width: 100%;
@@ -375,9 +367,6 @@ a {
 	}
 	.pic {
 		display: none;
-	}
-	.ratings-text, .quiz-text, .list-text {
-		display: none !important;
 	}
 	.button {
 		display: block;
